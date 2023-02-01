@@ -26,6 +26,10 @@ public class AnimNodesEditor : ModuleRules
 			new string[]
 			{
 				"Core",
+				"AnimGraph",
+				"AnimGraphRuntime",
+				"BlueprintGraph",
+				"AnimNodes"
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);
@@ -38,6 +42,14 @@ public class AnimNodesEditor : ModuleRules
 				"Engine",
 				"Slate",
 				"SlateCore",
+                "UnrealEd",
+                "GraphEditor",
+                "PropertyEditor",
+                "EditorStyle",
+                "ContentBrowser",
+                "AnimNodes",
+                "AnimGraph",
+                "AnimGraphRuntime"
 				// ... add private dependencies that you statically link with here ...	
 			}
 			);

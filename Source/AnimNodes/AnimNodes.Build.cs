@@ -17,6 +17,7 @@ public class AnimNodes : ModuleRules
 		
 		PrivateIncludePaths.AddRange(
 			new string[] {
+                "AnimNodes/Private",
 				// ... add other private include paths required here ...
 			}
 			);
@@ -26,6 +27,8 @@ public class AnimNodes : ModuleRules
 			new string[]
 			{
 				"Core",
+                "AnimationCore",
+                "AnimGraphRuntime"
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);
@@ -38,6 +41,7 @@ public class AnimNodes : ModuleRules
 				"Engine",
 				"Slate",
 				"SlateCore",
+                "AnimGraphRuntime"
 				// ... add private dependencies that you statically link with here ...	
 			}
 			);

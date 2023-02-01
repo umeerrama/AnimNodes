@@ -270,6 +270,8 @@ D:\UnrealEngine\Projects\Animation\Plugins\AnimNodes\Source\AnimNodes\Private\An
 /I Runtime\MovieSceneCapture\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationDataController\UHT
 /I Developer\AnimationDataController\Public
+/I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimGraphRuntime\UHT
+/I Runtime\AnimGraphRuntime\Public
 /I D:\UnrealEngine\Projects\Animation\Plugins\AnimNodes\Source
 /I D:\UnrealEngine\Projects\Animation\Plugins\AnimNodes\Source\AnimNodes\Public
 /external:W0

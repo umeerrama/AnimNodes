@@ -1,6 +1,6 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
-#include "AnimNodes.h"
+#include "AnimNodesEditor.h"
 
 #define LOCTEXT_NAMESPACE "FAnimNodesEditorModule"
 
@@ -17,4 +17,4 @@ void FAnimNodesEditorModule::ShutdownModule()
 
 #undef LOCTEXT_NAMESPACE
 	
-IMPLEMENT_MODULE(FAnimNodeEditorsModule, AnimNodesEditor)
+IMPLEMENT_MODULE(FAnimNodesEditorModule, AnimNodesEditor)
